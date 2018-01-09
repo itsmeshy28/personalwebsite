@@ -1,0 +1,54 @@
+.banner{
+	background-color: #1C1E26;
+	background-size: cover;
+ 	background-repeat: no-repeat;
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner2{
+	background-color: gray;
+	height: 100vh;
+}
+
+.myself{
+	position: relative;
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	float:right;
+
+
+	img{
+		position: relative;
+		width: 58%;
+    	height: 80%;
+		display: flex;
+		align-items: center;
+	}
+}
+
+.about-myself{
+	width: 50%;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	float:left;
+	align-items:center;
+	position:relative;
+	font-family: 'Ubuntu', sans-serif;
+	font-size:25px;
+
+	h1{
+		position: absolute;
+
+		p{
+			position: absolute;
+		}
+	}
+}
