@@ -1,54 +1,66 @@
-.banner{
-	background-color: #1C1E26;
-	background-size: cover;
- 	background-repeat: no-repeat;
-	color: #fff;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.banner {
+    background-color: #1C1E26;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.menu{
-	border: 1px solid #fff;
-	padding: 25px 41px;
+.menu {
+    border: 1px solid #fff;
+    padding: 25px 30px;
+    font-size: 24px;
+    display: none;
+    z-index: 4;
+}
+.menu h1{
+    opacity: 0;
 }
 
-.banner2{
-	background-color: #fff;
-	height: 100vh;
+.menu-flip  {
+    transform: rotateY(180deg);
+    transition: 1.0s;
+    transform-style: preserve-3d;
 }
 
-.myself{
-	position: relative;
-	width: 50%;
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items:center;
-	float:right;
-
-
-	img{
-		position: relative;
-		width: 58%;
-    	height: 80%;
-		display: flex;
-		align-items: center;
-	}
+.banner2 {
+    background-color: #fff;
+    height: 100vh;
 }
 
-.about-myself{
-	width: 50%;
-	height: 100vh;
+.myself {
+    position: relative;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+
+
+    img {
+        position: relative;
+        width: 58%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.about-myself {
+    width: 50%;
+    height: 100vh;
     position: absolute;
     font-family: 'century gothic', sans-serif;
     display: flex;
     justify-content: center;
 }
 
-.about-myself h1{
-	height: 22vh;
+.about-myself h1 {
+    height: 22vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,27 +69,26 @@
     position: relative;
 }
 
-.about-myself p{
-	height: 87vh;
-	width: 77%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	line-height: 2;
-	font-size: 15px;
-	position: absolute;
+.about-myself p {
+    height: 87vh;
+    width: 77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-size: 15px;
+    position: absolute;
 }
 
-.banner3{
-	height: 100vh;
-	width: 100%;
+.banner3 {
+    height: 100vh;
+    width: 100%;
     font-family: 'century gothic', sans-serif;
     background-color: gray;
-
 }
 
-.content{
-	position: relative;
+.content {
+    position: relative;
     width: 50%;
     height: 100vh;
     display: flex;
@@ -86,13 +97,13 @@
     float: left;
 }
 
-.content p{
-	font-family: arial;
-	font-size: 166px;
-	position: relative;
+.content p {
+    font-family: arial;
+    font-size: 166px;
+    position: relative;
 }
 
-.text{
+.text {
     width: 50%;
     height: 100vh;
     position: relative;
@@ -103,7 +114,7 @@
     float: right;
 }
 
-.text h1{
+.text h1 {
     height: 53vh;
     display: flex;
     justify-content: center;
@@ -113,26 +124,192 @@
     position: absolute;
 }
 
-.text p{
-	height: 87vh;
-	width: 77%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	line-height: 2;
-	font-size: 15px;
-	position: absolute;
+.text p {
+    height: 87vh;
+    width: 77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    font-size: 15px;
+    position: absolute;
 }
 
-.banner4{
-	position: absolute;
-	height: 100vh;
-	width: 100%;
+.banner4 {
+    height: 100vh;
+    width: 100%;
     background-color: #1C1E26;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.border{
-	position: absolute;
+.border {
+    position: absolute;
+    width: 36%;
+    height: 14%;
     border: 1px solid #fff;
-    padding: 199px 354px;
+    padding: 188px 136px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.border h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: century gothic;
+    font-size: 43px;
+    height: 50%;
+}
+
+.border p {
+    height: 18vh;
+    text-align: center;
+    position: relative;
+    font-family: century gothic;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+
+.banner5 {
+    height: 100vh;
+    width: 100%;
+    background-color: #00e6ac;
+    display: flex;
+    justify-content: center;
+    color: #fff;    
+}
+
+.shy{    
+    width: 77%;
+    position: absolute;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.shy p{
+    font-size: 35px;
+}
+
+
+.module{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 77%
+}
+
+.social-links{
+    height: 50vh;
+    width: 39%;
+    font-size: 20px;
+    position: relative;
+}
+
+.social-links a {
+    text-decoration: none;
+    width: 10%;
+}
+
+.social-links li{
+    width: 106px;
+    height: 75px;
+    display: block;
+}
+
+.banner6{
+    height: 100vh;
+    background-color: #1C1E26;
+    display: flex;
+}
+
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.more-details{
+    width: 100%;
+    height: 24%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.more-details h1{
+    align-items: center;
+    font-size: 62px;
+    font-family: century gothic;
+    font-weight: 700;
+    color: #fff;
+    display: flex;
+}
+
+.contact-form{
+    display: flex;
+    color: #fff;
+}
+
+.textboxArea {
+    height: 34px;
+    padding: 3px 273px;
+    background-color: transparent;
+    color: #fff;
+    font-style: italic;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.text-box1{
+    height: 34px;
+    padding: 3px 273px;
+    background-color: transparent;
+    color: #fff;
+    font-style: italic;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+    width: 5%;
+    display: inline;
+}
+
+.text-box2{
+    height: 34px;
+    padding: 3px 273px;
+    background-color: transparent;
+    color: #fff;
+    font-style: italic;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+    width: 5%;
+    display: inline;
+}
+
+.message{
+    font-size: 31px;
+    color: #fff;
+    font-style: italic;
+}
+
+.comment-section{
+    padding: 86px 273px;
+    background-color: transparent;
+    display: block;
+    color: #fff;
+
+
+.label-comment{
+    display: block;
 }

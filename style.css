@@ -1,121 +1,44 @@
-.banner {
-  background-color: #1C1E26;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+/*
+Error: Invalid CSS after "}": expected "}", was ""
+        on line 315 of style.scss
 
-.menu {
-  border: 1px solid #fff;
-  padding: 25px 41px; }
+310:     color: #fff;
+311: 
+312: 
+313: .label-comment{
+314:     display: block;
+315: }
 
-.banner2 {
-  background-color: #fff;
-  height: 100vh; }
-
-.myself {
-  position: relative;
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: right; }
-  .myself img {
-    position: relative;
-    width: 58%;
-    height: 80%;
-    display: flex;
-    align-items: center; }
-
-.about-myself {
-  width: 50%;
-  height: 100vh;
-  position: absolute;
-  font-family: 'century gothic', sans-serif;
-  display: flex;
-  justify-content: center; }
-
-.about-myself h1 {
-  height: 22vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  font-weight: bold;
-  position: relative; }
-
-.about-myself p {
-  height: 87vh;
-  width: 77%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 2;
-  font-size: 15px;
-  position: absolute; }
-
-.banner3 {
-  height: 100vh;
-  width: 100%;
-  font-family: 'century gothic', sans-serif;
-  background-color: gray; }
-
-.content {
-  position: relative;
-  width: 50%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: left; }
-
-.content p {
-  font-family: arial;
-  font-size: 166px;
-  position: relative; }
-
-.text {
-  width: 50%;
-  height: 100vh;
-  position: relative;
-  font-family: 'century gothic', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  float: right; }
-
-.text h1 {
-  height: 53vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 30px;
-  font-weight: bold;
-  position: absolute; }
-
-.text p {
-  height: 87vh;
-  width: 77%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 2;
-  font-size: 15px;
-  position: absolute; }
-
-.banner4 {
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  background-color: #1C1E26; }
-
-.border {
-  position: absolute;
-  border: 1px solid #fff;
-  padding: 199px 354px; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+style.scss:315
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:679:in `block'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-3.5.5/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby23/lib/ruby/gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 315 of style.scss\A \A 310:     color: #fff;\A 311: \A 312: \A 313: .label-comment{\A 314:     display: block;\A 315: }"; }
