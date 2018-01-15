@@ -7,6 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
 }
 
 .menu {
@@ -24,6 +25,13 @@
     transform: rotateY(180deg);
     transition: 1.0s;
     transform-style: preserve-3d;
+=======
+}
+
+.menu {
+    border: 1px solid #fff;
+    padding: 25px 41px;
+>>>>>>> dc4b7fc40df56da925b9772b45eef2f7767b2705
 }
 
 .banner2 {
@@ -152,6 +160,7 @@
     padding: 188px 136px;
     color: #fff;
     font-weight: bold;
+<<<<<<< HEAD
 }
 
 .border h1 {
@@ -312,4 +321,69 @@
 
 .label-comment{
     display: block;
+=======
+}
+
+.border h1 {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: century gothic;
+    font-size: 43px;
+    height: 50%;
+}
+
+.border p {
+    height: 18vh;
+    text-align: center;
+    position: relative;
+    font-family: century gothic;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+}
+
+.banner5 {
+    height: 100vh;
+    width: 100%;
+    background-color: #ff4d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.module {
+    width: 95%;
+    height: 90%;
+    border: 5px solid #1C1E26;
+}
+
+.shy{    
+      width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.shy p {
+    width: 50%;
+    height: 10vh;
+    display: inline;
+    position: relative;
+    font-size: 33px;
+}
+
+.social-links {
+    height: 50vh;
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    line-height: 4;
+    font-size: 20px;
+    position: relative;
+}
+
+.social-links a {
+    text-decoration: none;
+    line-height: 2;
+>>>>>>> dc4b7fc40df56da925b9772b45eef2f7767b2705
 }

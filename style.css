@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Error: Invalid CSS after "}": expected "}", was ""
         on line 315 of style.scss
@@ -42,3 +43,187 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 315 of style.scss\A \A 310:     color: #fff;\A 311: \A 312: \A 313: .label-comment{\A 314:     display: block;\A 315: }"; }
+=======
+.banner {
+  background-color: #1C1E26;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.menu {
+  border: 1px solid #fff;
+  padding: 25px 41px; }
+
+.banner2 {
+  background-color: #fff;
+  height: 100vh; }
+
+.myself {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right; }
+  .myself img {
+    position: relative;
+    width: 58%;
+    height: 80%;
+    display: flex;
+    align-items: center; }
+
+.about-myself {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  font-family: 'century gothic', sans-serif;
+  display: flex;
+  justify-content: center; }
+
+.about-myself h1 {
+  height: 22vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative; }
+
+.about-myself p {
+  height: 87vh;
+  width: 77%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  font-size: 15px;
+  position: absolute; }
+
+.banner3 {
+  height: 100vh;
+  width: 100%;
+  font-family: 'century gothic', sans-serif;
+  background-color: gray; }
+
+.content {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left; }
+
+.content p {
+  font-family: arial;
+  font-size: 166px;
+  position: relative; }
+
+.text {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+  font-family: 'century gothic', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right; }
+
+.text h1 {
+  height: 53vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute; }
+
+.text p {
+  height: 87vh;
+  width: 77%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2;
+  font-size: 15px;
+  position: absolute; }
+
+.banner4 {
+  height: 100vh;
+  width: 100%;
+  background-color: #1C1E26;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.border {
+  position: absolute;
+  width: 36%;
+  height: 14%;
+  border: 1px solid #fff;
+  padding: 188px 136px;
+  color: #fff;
+  font-weight: bold; }
+
+.border h1 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: century gothic;
+  font-size: 43px;
+  height: 50%; }
+
+.border p {
+  height: 18vh;
+  text-align: center;
+  position: relative;
+  font-family: century gothic;
+  font-size: 14px;
+  align-items: center;
+  display: flex; }
+
+.banner5 {
+  height: 100vh;
+  width: 100%;
+  background-color: #ff4d4d;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.module {
+  width: 95%;
+  height: 90%;
+  border: 5px solid #1C1E26; }
+
+.shy {
+  width: 50%;
+  text-align: center;
+  position: relative; }
+
+.shy p {
+  width: 50%;
+  height: 10vh;
+  display: inline;
+  position: relative;
+  font-size: 33px; }
+
+.social-links {
+  height: 50vh;
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  line-height: 4;
+  font-size: 20px;
+  position: relative; }
+
+.social-links a {
+  text-decoration: none;
+  line-height: 2; }
+
+/*# sourceMappingURL=style.css.map */
+>>>>>>> dc4b7fc40df56da925b9772b45eef2f7767b2705
